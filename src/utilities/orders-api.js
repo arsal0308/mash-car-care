@@ -2,10 +2,14 @@ import sendRequest from './send-request';
 
 const BASE_URL = '/api/orders';
 
+// export function getCart() {
+//   return sendRequest(`${BASE_URL}/cart`);
+// }
 export function getCart() {
-  return sendRequest(`${BASE_URL}/cart`);
+  const response = sendRequest(`${BASE_URL}/cart`);
+  console.log('getCart response= ', response)
+  return response
 }
-
 export function addItemToCart(itemId) {
   return sendRequest(`${BASE_URL}/cart/items/${itemId}`, 'POST');
 }

@@ -20,13 +20,14 @@ export default function NewOrderPage({ user, setUser }) {
       const items = await itemsAPI.getAll();
       categoriesRef.current = [...new Set(items.map(item => item.category.name))];
       setInventoryItems(items);
-      // setActiveCat(categoriesRef.current[0]);
+      setActiveCat(categoriesRef.current[0]);
     }
     getItems();
     async function getCart() {
       const cart = await ordersAPI.getCart();
       setCart(cart);
     }
+    console.log(cart);
     getCart();
   }, []);
 
