@@ -1,9 +1,10 @@
 import './InventoryListItem.css';
 
 export default function InventoryListItem({ inventoryItem, handleAddToOrder }) {
+  console.log(inventoryItem);
   return (
     <div className="InventoryListItem">
-      <div className="image flex-ctr-ctr">{inventoryItem.image}</div>
+      <img className="image flex-ctr-ctr" src={inventoryItem.image} alt="" />
       <div className="name">{inventoryItem.name}</div>
       <div className="buy">
         <span>${inventoryItem.price.toFixed(2)}</span>
