@@ -60,7 +60,6 @@ export default function NewOrderPage({ user, setUser }) {
         inventoryItems={inventoryItems.filter(item => item.category.name === activeCat)}
         handleAddToOrder={handleAddToOrder}
         />
-        <img></img>
       <OrderDetail 
       order={cart}
       handleChangeQty={handleChangeQty}
