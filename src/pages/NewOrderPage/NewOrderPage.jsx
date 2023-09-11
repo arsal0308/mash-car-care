@@ -44,6 +44,7 @@ export default function NewOrderPage({ user, setUser }) {
     await ordersAPI.checkout();
     navigate('/orders');
   }
+ 
     return (
       <main className="NewOrderPage">
       <aside>

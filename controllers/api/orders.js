@@ -1,12 +1,18 @@
 const Order = require('../../models/order');
-// const Item = require('../../models/item');
+const Item = require('../../models/item');
 
 module.exports = {
   cart,
   addToCart,
   setItemQtyInCart,
   checkout,
+  forUser
 };
+
+async function forUser(req, res) {
+  const orders = await Order.find({user: req.user._id, isPaid: true}).sort('-updatedAt');
+  res.json(orders);
+}
 
 async function cart(req, res) {
   const cart = await Order.getCart(req.user._id);
