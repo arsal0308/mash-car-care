@@ -1,12 +1,8 @@
 import './OrderDetail.css';
 import LineItem from '../LineItem/LineItem';
 
-export default function OrderDetail({ order, handleChangeQty }) {
+export default function OrderDetail({ order, handleChangeQty, handleCheckout }) {
   if (!order) return null;
-
-  const handleCheckout = () => {
-    alert('Proceeding to checkout. Payment processing would occur in a real application.');
-  };
 
   const lineItems = order.lineItems.map(item =>
     <LineItem

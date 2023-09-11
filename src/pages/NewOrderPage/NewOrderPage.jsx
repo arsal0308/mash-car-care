@@ -64,6 +64,7 @@ export default function NewOrderPage({ user, setUser }) {
       <OrderDetail 
       order={cart}
       handleChangeQty={handleChangeQty}
+      handleCheckout={handleCheckout}
       />
     </main>
     );
