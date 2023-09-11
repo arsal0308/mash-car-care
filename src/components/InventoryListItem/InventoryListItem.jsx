@@ -1,7 +1,6 @@
 import './InventoryListItem.css';
 
 export default function InventoryListItem({ inventoryItem, handleAddToOrder }) {
-  console.log(inventoryItem);
   return (
     <div className="InventoryListItem">
       <img className="image flex-ctr-ctr" src={inventoryItem.image} alt="" />

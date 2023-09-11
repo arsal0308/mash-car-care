@@ -55,7 +55,7 @@ orderSchema.methods.addItemToCart = async function (itemId) {
   } else {
     const Item = mongoose.model('Item');
     const item = await Item.findById(itemId);
-    cart.lineItems.push({ item });
+    cart.lineItems.push({ item });  
   }
   return cart.save();
 };
