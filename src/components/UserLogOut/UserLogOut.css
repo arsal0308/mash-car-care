@@ -7,3 +7,7 @@
 .UserLogOut .email {
   font-size: smaller;
 }
+
+.UserLogOut .btn-sm {
+  background-color: blue;
+}

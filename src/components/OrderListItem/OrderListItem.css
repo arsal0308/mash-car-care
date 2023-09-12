@@ -7,14 +7,14 @@
     padding: 2vmin;
     color: var(--text-light);
     background-color: var(--white);
-    border: 0.2vmin solid var(--tan-3);
+    border: 0.2vmin solid gray;
     border-radius: 1vmin;
     font-size: 2vmin;
     cursor: pointer;
   }
   
   .OrderListItem.selected, .OrderListItem:not(.selected):hover {
-    border-color: var(--orange);
+    border-color: blue;
     border-width: 0.2vmin;
   }
   

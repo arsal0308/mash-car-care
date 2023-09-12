@@ -1,8 +1,13 @@
 .InventoryList {
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
+  background-color: gray;
+  border: .3vmin solid gray;
+  width: 100%;
   border-radius: 2vmin;
   margin: 3vmin 0;
-  padding: 3vmin;
+  padding: 2vmin;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
 }
