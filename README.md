@@ -1,6 +1,6 @@
 # Mash-Car-Care
 
- Welcome to Mash Car Care, your ultimate destination for premium car detailing products, powered by the MERN stack. Our responsive platform ensures a seamless shopping experience. As passionate car enthusiasts, we've carefully curated a premium selection of products, from top-notch waxes to cutting-edge cleaning tools. Mash Car Care is more than just a store; it's a community. Connect with us for expert advice and personalized recommendations. Elevate your car care routine with us today!
+ Welcome to Mash Car Care, your ultimate destination for premium car detailing products, powered by the MERN stack. Our responsive platform ensures a seamless shopping experience. As passionate car enthusiasts, we've carefully curated a premium selection of products, from top-notch waxes to cutting-edge cleaning tools. Mash Car Care is more than just a store, it's a community. Connect with us for expert advice and personalized recommendations. Elevate your car care routine with us today!
 
 # Getting Started:
 [Click to view Project Planning!​](https://trello.com/b/iAu10hNb/mash-car-care)
