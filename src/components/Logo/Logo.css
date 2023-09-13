@@ -1,4 +1,4 @@
-.Logo {
+/* .Logo {
   height: 20vmin;
   width: 20vmin;
   display: flex;
@@ -7,8 +7,20 @@
   align-items: center;
   border-radius: 50%;
   background-color: blue;
-  color: var(--tan-1);
   font-size: 4vmin;
-  font-weight: bold;
+  font-weight: bolder;
+  border: .6vmin solid gray; 
+} */
+.Logo button{
+  height: 20vmin;
+  width: 20vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: blue;
+  font-size: 4.5vmin;
+  font-weight: bolder;
   border: .6vmin solid gray; 
 }
